@@ -10364,5 +10364,10 @@ ul {
 .ponter-event-none {
   pointer-events: none;
 }
+.background{
+  background: url(../image/webp/hero-pattern-me.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 /*# sourceMappingURL=maps/main.css.map */
