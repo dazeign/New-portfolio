@@ -90,7 +90,7 @@ ul p, ul em, ul input {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  cursor: pointer;
+  cursor: none;
   max-width: 11rem;
 }
 

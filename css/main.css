@@ -36,6 +36,9 @@ body[data-theme='dark'], .dark-bg, .dark-bg-text {
   --border-color:#383F53;
   cursor: none;
 }
+a{
+  cursor:none;
+}
 
 body[data-theme='light'], .light-bg, .light-bg-text {
   --bg: #fff;
@@ -7333,6 +7336,7 @@ p {
   font-size: 1.0625rem;
   letter-spacing: -0.2px;
   line-height: 1.71;
+  text-align: left;
 }
 
 .gr-text-10 {
@@ -9763,7 +9767,7 @@ p {
   overflow: visible;
   margin: 0;
   padding: 2px 0px 0px;
-  cursor: pointer;
+  cursor: none;
   transition-timing-function: linear;
   transition-duration: .15s;
   transition-property: opacity,-webkit-filter;
@@ -10373,13 +10377,14 @@ ul {
 .cursor {
   width: 60px;
   height: 60px;
-  border: 2px solid white;
+  border: 3px solid white;
   border-radius: 50%;
   position: absolute;
   transition-duration: 200ms;
   transition-timing-function: ease-out;
   animation: cursorAnim .5s infinite alternate;
   pointer-events: none;
+  z-index: 10000;
 }
 
 .cursor::after {
@@ -10387,7 +10392,8 @@ ul {
   width: 40px;
   height: 40px;
   position: absolute;
-  border: 8px solid gray;
+  border: 4px solid white;
+  opacity: 0.5;
   border-radius: 50%;
   opacity: .5;
   top: -8px;
@@ -10428,12 +10434,12 @@ ul {
 
 .expand {
   animation: cursorAnim3 .5s forwards;
-  border: 1px solid red;
+  border: 1px solid #662D91;
 }
 
 p {
 color: white;
-font-family: 'arial';
+font-family: 'inter' sans-serif;
 text-align: center;
 margin-top: 50px;
 font-size: 1.4em;

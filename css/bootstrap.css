@@ -272,7 +272,7 @@ select {
 }
 
 [role="button"] {
-  cursor: pointer;
+  cursor: none;
 }
 
 select {
@@ -290,7 +290,7 @@ button:not(:disabled),
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
 [type="submit"]:not(:disabled) {
-  cursor: pointer;
+  cursor: none;
 }
 
 button::-moz-focus-inner,
@@ -366,7 +366,7 @@ output {
 
 summary {
   display: list-item;
-  cursor: pointer;
+  cursor: none;
 }
 
 template {
@@ -2840,7 +2840,7 @@ textarea.form-control {
 }
 
 .btn:not(:disabled):not(.disabled) {
-  cursor: pointer;
+  cursor: none;
 }
 
 a.btn.disabled,
@@ -5080,7 +5080,7 @@ input[type="button"].btn-block {
   width: 100%;
   height: 0.5rem;
   color: transparent;
-  cursor: pointer;
+  cursor: none;
   background-color: #dee2e6;
   border-color: transparent;
   border-radius: 1rem;
@@ -5113,7 +5113,7 @@ input[type="button"].btn-block {
   width: 100%;
   height: 0.5rem;
   color: transparent;
-  cursor: pointer;
+  cursor: none;
   background-color: #dee2e6;
   border-color: transparent;
   border-radius: 1rem;
@@ -5148,7 +5148,7 @@ input[type="button"].btn-block {
   width: 100%;
   height: 0.5rem;
   color: transparent;
-  cursor: pointer;
+  cursor: none;
   background-color: transparent;
   border-color: transparent;
   border-width: 0.5rem;
@@ -7962,7 +7962,7 @@ a.close.disabled {
   margin-right: 3px;
   margin-left: 3px;
   text-indent: -999px;
-  cursor: pointer;
+  cursor: none;
   background-color: #fff;
   background-clip: padding-box;
   border-top: 10px solid transparent;
