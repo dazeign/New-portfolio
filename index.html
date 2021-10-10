@@ -24,9 +24,7 @@
 </head>
 
 <body data-theme-mode-panel-active data-theme="dark" style="background-color: #05000A;">
-  <!-- <div id="preloader" class="preloader">
-    <span class="counter">0</span>
-  </div> -->
+  <div class="cursor" style="z-index: 1000;"></div>
   <main>
     <div class="site-wrapper background overflow-hidden position-relative">
       <!-- Header Area -->
@@ -442,6 +440,21 @@
     </div>
   </main>
   <!-- Vendor Scripts -->
+  <script>
+    const cursor = document.querySelector('.cursor');
+
+document.addEventListener('mousemove', e => {
+    cursor.setAttribute("style", "top: "+(e.pageY - 30)+"px; left: "+(e.pageX - 30)+"px;")
+})
+
+document.addEventListener('click', () => {
+    cursor.classList.add("expand");
+
+    setTimeout(() => {
+        cursor.classList.remove("expand");
+    }, 500)
+})
+  </script>
   <script src="js/vendor.min.js"></script>
   <script src="./plugins/animatedModal/animatedmodal.min.js"></script>
   <script src="./plugins/theme-mode-switcher/gr-theme-mode-switcher.js"></script>

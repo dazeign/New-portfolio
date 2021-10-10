@@ -34,6 +34,7 @@ body[data-theme='dark'], .dark-bg, .dark-bg-text {
   --color-text-oposite: #161c2d;
   --btn-border: rgba(255,255,255,.3);
   --border-color:#383F53;
+  cursor: none;
 }
 
 body[data-theme='light'], .light-bg, .light-bg-text {
@@ -10368,6 +10369,78 @@ ul {
   background: url(../image/webp/hero-pattern-me.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+.cursor {
+  width: 60px;
+  height: 60px;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: absolute;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+  animation: cursorAnim .5s infinite alternate;
+  pointer-events: none;
+}
+
+.cursor::after {
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border: 8px solid gray;
+  border-radius: 50%;
+  opacity: .5;
+  top: -8px;
+  left: -8px;
+  animation: cursorAnim2 .5s infinite alternate;
+}
+
+@keyframes cursorAnim {
+  from {
+      transform: scale(1);
+  }
+  to {
+      transform: scale(.7);
+  }
+}
+
+@keyframes cursorAnim2 {
+  from {
+      transform: scale(1);
+  }
+  to {
+      transform: scale(.4);
+  }
+}
+
+@keyframes cursorAnim3 {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(3);
+  }
+  100% {
+      transform: scale(1);
+      opacity: 0;
+  }
+}
+
+.expand {
+  animation: cursorAnim3 .5s forwards;
+  border: 1px solid red;
+}
+
+p {
+color: white;
+font-family: 'arial';
+text-align: center;
+margin-top: 50px;
+font-size: 1.4em;
+}
+
+a {
+  color: teal;
 }
 
 /*# sourceMappingURL=maps/main.css.map */
