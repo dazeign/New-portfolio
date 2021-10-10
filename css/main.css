@@ -7336,7 +7336,7 @@ p {
   font-size: 1.0625rem;
   letter-spacing: -0.2px;
   line-height: 1.71;
-  text-align: left;
+  
 }
 
 .gr-text-10 {
@@ -10448,10 +10448,13 @@ font-size: 1.4em;
 a {
   color: teal;
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .cursor{
     display: none;
   }
+}
+span, p{
+  text-align: left;
 }
 
 /*# sourceMappingURL=maps/main.css.map */
