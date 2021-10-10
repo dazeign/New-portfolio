@@ -10448,5 +10448,10 @@ font-size: 1.4em;
 a {
   color: teal;
 }
+@media (min-width: 576px) {
+  .cursor{
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=maps/main.css.map */
