@@ -7302,6 +7302,7 @@ p {
   font-size: 1.3125rem;
   letter-spacing: -0.5px;
   line-height: 1.5;
+  text-align: left;
 }
 
 @media (max-width: 1200px) {
@@ -7330,13 +7331,14 @@ p {
   font-size: 1.1875rem;
   letter-spacing: -0.2px;
   line-height: 1.69;
+  text-align: left;
 }
 
 .gr-text-9 {
   font-size: 1.0625rem;
   letter-spacing: -0.2px;
   line-height: 1.71;
-  
+  text-align: left;
 }
 
 .gr-text-10 {
@@ -8259,91 +8261,91 @@ p {
   color: rgba(86, 179, 129, 0.9);
 }
 
-.gr-color-teal {
+.gr-color-#662D91 {
   color: #20c997;
 }
 
-.gr-bg-teal {
+.gr-bg-#662D91 {
   background-color: #20c997 !important;
 }
 
-.gr-bg-teal-opacity-visible {
+.gr-bg-#662D91-opacity-visible {
   background-color: #20c997;
 }
 
-.gr-bg-teal-opacity-1 {
+.gr-bg-#662D91-opacity-1 {
   background-color: rgba(32, 201, 151, 0.1);
 }
 
-.gr-bg-teal-opacity-2 {
+.gr-bg-#662D91-opacity-2 {
   background-color: rgba(32, 201, 151, 0.2);
 }
 
-.gr-bg-teal-opacity-3 {
+.gr-bg-#662D91-opacity-3 {
   background-color: rgba(32, 201, 151, 0.3);
 }
 
-.gr-bg-teal-opacity-4 {
+.gr-bg-#662D91-opacity-4 {
   background-color: rgba(32, 201, 151, 0.4);
 }
 
-.gr-bg-teal-opacity-5 {
+.gr-bg-#662D91-opacity-5 {
   background-color: rgba(32, 201, 151, 0.5);
 }
 
-.gr-bg-teal-opacity-6 {
+.gr-bg-#662D91-opacity-6 {
   background-color: rgba(32, 201, 151, 0.6);
 }
 
-.gr-bg-teal-opacity-7 {
+.gr-bg-#662D91-opacity-7 {
   background-color: rgba(32, 201, 151, 0.7);
 }
 
-.gr-bg-teal-opacity-8 {
+.gr-bg-#662D91-opacity-8 {
   background-color: rgba(32, 201, 151, 0.8);
 }
 
-.gr-bg-teal-opacity-9 {
+.gr-bg-#662D91-opacity-9 {
   background-color: rgba(32, 201, 151, 0.9);
 }
 
-.gr-color-teal-opacity-visible {
+.gr-color-#662D91-opacity-visible {
   color: #20c997;
 }
 
-.gr-color-teal-opacity-1 {
+.gr-color-#662D91-opacity-1 {
   color: rgba(32, 201, 151, 0.1);
 }
 
-.gr-color-teal-opacity-2 {
+.gr-color-#662D91-opacity-2 {
   color: rgba(32, 201, 151, 0.2);
 }
 
-.gr-color-teal-opacity-3 {
+.gr-color-#662D91-opacity-3 {
   color: rgba(32, 201, 151, 0.3);
 }
 
-.gr-color-teal-opacity-4 {
+.gr-color-#662D91-opacity-4 {
   color: rgba(32, 201, 151, 0.4);
 }
 
-.gr-color-teal-opacity-5 {
+.gr-color-#662D91-opacity-5 {
   color: rgba(32, 201, 151, 0.5);
 }
 
-.gr-color-teal-opacity-6 {
+.gr-color-#662D91-opacity-6 {
   color: rgba(32, 201, 151, 0.6);
 }
 
-.gr-color-teal-opacity-7 {
+.gr-color-#662D91-opacity-7 {
   color: rgba(32, 201, 151, 0.7);
 }
 
-.gr-color-teal-opacity-8 {
+.gr-color-#662D91-opacity-8 {
   color: rgba(32, 201, 151, 0.8);
 }
 
-.gr-color-teal-opacity-9 {
+.gr-color-#662D91-opacity-9 {
   color: rgba(32, 201, 151, 0.9);
 }
 
@@ -10440,21 +10442,16 @@ ul {
 p {
 color: white;
 font-family: 'inter' sans-serif;
-text-align: center;
-margin-top: 50px;
-font-size: 1.4em;
 }
 
 a {
-  color: teal;
+  color: #662D91;
 }
 @media (max-width: 576px) {
   .cursor{
     display: none;
   }
 }
-span, p{
-  text-align: left;
-}
+
 
 /*# sourceMappingURL=maps/main.css.map */
