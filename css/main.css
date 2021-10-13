@@ -7561,47 +7561,47 @@ p {
   color: #662D91;
 }
 
-.gr-bg-blue {
+.gr-bg-purple {
   background-color: #662D91 !important;
 }
 
-.gr-bg-blue-opacity-visible {
+.gr-bg-purple-opacity-visible {
   background-color: #662D91;
 }
 
-.gr-bg-blue-opacity-1 {
+.gr-bg-purple-opacity-1 {
   background-color: rgba(73, 95, 239, 0.1);
 }
 
-.gr-bg-blue-opacity-2 {
+.gr-bg-purple-opacity-2 {
   background-color: rgba(73, 95, 239, 0.2);
 }
 
-.gr-bg-blue-opacity-3 {
+.gr-bg-purple-opacity-3 {
   background-color: rgba(73, 95, 239, 0.3);
 }
 
-.gr-bg-blue-opacity-4 {
+.gr-bg-purple-opacity-4 {
   background-color: rgba(73, 95, 239, 0.4);
 }
 
-.gr-bg-blue-opacity-5 {
+.gr-bg-purple-opacity-5 {
   background-color: rgba(73, 95, 239, 0.5);
 }
 
-.gr-bg-blue-opacity-6 {
+.gr-bg-purple-opacity-6 {
   background-color: rgba(73, 95, 239, 0.6);
 }
 
-.gr-bg-blue-opacity-7 {
+.gr-bg-purple-opacity-7 {
   background-color: rgba(73, 95, 239, 0.7);
 }
 
-.gr-bg-blue-opacity-8 {
+.gr-bg-purple-opacity-8 {
   background-color: rgba(73, 95, 239, 0.8);
 }
 
-.gr-bg-blue-opacity-9 {
+.gr-bg-purple-opacity-9 {
   background-color: rgba(73, 95, 239, 0.9);
 }
 
@@ -10450,6 +10450,9 @@ a {
 @media (max-width: 576px) {
   .cursor{
     display: none;
+  }
+  .sociall{
+    padding-bottom: 1.2rem;
   }
 }
 
