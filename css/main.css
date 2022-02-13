@@ -36,6 +36,9 @@ body[data-theme='dark'], .dark-bg, .dark-bg-text {
   --border-color:#383F53;
   cursor: none;
 }
+*{
+  /* outline: 1px solid red; */
+}
 a{
   cursor:none;
 }
@@ -9342,7 +9345,7 @@ p {
 
 /* Component -> Button Styles */
 .btn {
-  min-width: 175px;
+  min-width: 200px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -9350,8 +9353,8 @@ p {
   transition: .4s;
   letter-spacing: 1.63px;
   height: 65px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .btn:focus {
