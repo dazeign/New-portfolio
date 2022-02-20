@@ -10325,6 +10325,34 @@ ul {
   transition: .4s;
 }
 
+.portfolio-card-hover {
+  position: relative;
+  z-index: 1;
+}
+
+.portfolio-card-hover:hover {
+  opacity: 0.3;
+}
+
+.text-horizontal-overlay {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 84%;
+  top: 0;
+  z-index: 1000;
+  text-align: center;
+}
+
+.text-horizontal-overlay > h3 {
+  position: relative;
+  top: 45%;
+}
+
+.portfolio-card-hover:hover  .text-horizontal-overlay {
+  opacity: 1 ;
+}
+
 .portfolio-card-hover .card-image img {
   transition: .4s;
 }
@@ -10336,6 +10364,10 @@ ul {
 .portfolio-card-hover:hover img {
   border-radius: 20px;
   box-shadow: 0 32px 74px rgba(68, 77, 136, 0.2);
+}
+
+.not-ready:hover{
+  cursor: wait !important;
 }
 
 .link-hover-light:hover {
