@@ -10332,6 +10332,7 @@ ul {
 
 .coming:hover {
   opacity: 0.3;
+  transition: .4s;
 }
 
 .text-horizontal-overlay {
@@ -10362,6 +10363,9 @@ ul {
 
 .portfolio-card-hover:hover .card-image {
   transform: scale(0.8) rotate(-16deg);
+}
+.coming:hover .card-image {
+  transform: scale(1) rotate(0deg);
 }
 
 .portfolio-card-hover:hover img {
