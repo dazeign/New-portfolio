@@ -10330,7 +10330,7 @@ ul {
   z-index: 1;
 }
 
-.portfolio-card-hover:hover {
+.coming:hover {
   opacity: 0.3;
 }
 
@@ -10338,18 +10338,21 @@ ul {
   opacity: 0;
   position: absolute;
   width: 100%;
-  height: 84%;
+  height: 100%;
   top: 0;
   z-index: 1000;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .8s;
 }
 
 .text-horizontal-overlay > h3 {
   position: relative;
-  top: 45%;
 }
 
-.portfolio-card-hover:hover  .text-horizontal-overlay {
+.portfolio-card-hover:hover  .text-horizontal-overlay{
   opacity: 1 ;
 }
 
