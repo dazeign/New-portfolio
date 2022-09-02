@@ -603,7 +603,7 @@
         </div>
       </div> -->
      
-      <div class="gr-pb-md-15 gr-pb-10 gr-pt-md-0 gr-pt-10" style="background: linear-gradient(268.62deg, #FFBA08 0%, #F48C06 100%); background: #05000A;">
+      <div class="gr-pb-md-15 gr-pb-10 gr-pt-md-0 gr-pt-10">
         <div class="container">
           <!-- <figure class="gr-mb-md-10">
             <img src="./image/main/details/details-8.jpg" alt="" class="w-100">
@@ -612,16 +612,17 @@
             <img src="./image/projects/king-cards/king-mockup.png" alt="" class="w-100">
           </figure>
           <span class="d-block gr-text-12 font-weight-bold gr-heading-color-opacity text-uppercase text-center letter-spacings-1 gr-pb-6">Live App</span>
-          <div class="row d-flex justify-content-center">
+          <div class="row d-flex justify-content-around">
             
-            <div class="col-2 gr-pb-7" >
+            <div class="gr-pb-7" >
               <div>
                 <a href="https://play.google.com/store/apps/details?id=com.kingcards.kingcards" class="btn-hover-translate btn-hover-shadow-down">
                   <img src="./image/main/play-store-download.svg" alt="">
                 </a>
                 </div>
+                
             </div>
-            <div class="col-2 gr-pb-7">
+            <div class="gr-pb-7">
               <div>
                 <a href="https://apps.apple.com/ng/app/kingcards-sell-gift-cards/id1570500302" class="btn-hover-translate btn-hover-shadow-down">
                   <img src="./image/main/app-store-download.svg" alt="">
@@ -634,7 +635,7 @@
               <div class="more-link dark-bg-text">
                 <p class="mb-0 text-center">
                   <span class="d-block gr-text-12 font-weight-bold gr-heading-color-opacity text-uppercase letter-spacings-1 gr-pb-1">Next Project</span>
-                  <a href="#" class="gr-heading-color font-weight-bold d-inline-flex align-items-center btn-link-hover with-icon gr-text-5">Rodi Cash <i class="icon icon-tail-right ml-3 gr-text-6"></i></a>
+                  <a href="psoft.html" class="gr-heading-color font-weight-bold d-inline-flex align-items-center btn-link-hover with-icon gr-text-5">Pink Summer of Tech <i class="icon icon-tail-right ml-3 gr-text-6"></i></a>
                 </p>
               </div>
             </div>
@@ -727,7 +728,7 @@
         <footer class="gr-py-md-11 gr-pt-0 gr-pb-11">
           <div class="container">
             <div class="text-center">
-              <p class="heading-small text-uppercase">Dazeign © 2021 All RIght reserved</p>
+              <p class="heading-small text-uppercase">Dazeign © <span id="daze-date"></span> All RIght reserved</p>
             </div>
           </div>
         </footer>
@@ -736,19 +737,27 @@
   </main>
   <!-- Vendor Scripts -->
   <script>
+    function loadDate() {
+      const display = document.getElementById("daze-date")
+      const year = new Date().getFullYear()
+      display.innerHTML = year
+    }
+    window.onload = () => {
+      loadDate()
+    }
     const cursor = document.querySelector('.cursor');
 
-document.addEventListener('mousemove', e => {
-    cursor.setAttribute("style", "top: "+(e.pageY - 30)+"px; left: "+(e.pageX - 30)+"px;")
-})
+    document.addEventListener('mousemove', e => {
+      cursor.setAttribute("style", "top: " + (e.pageY - 30) + "px; left: " + (e.pageX - 30) + "px;")
+    })
 
-document.addEventListener('click', () => {
-    cursor.classList.add("expand");
+    document.addEventListener('click', () => {
+      cursor.classList.add("expand");
 
-    setTimeout(() => {
+      setTimeout(() => {
         cursor.classList.remove("expand");
-    }, 500)
-})
+      }, 500)
+    })
   </script>
   <script src="js/vendor.min.js"></script>
   <script src="./plugins/animatedModal/animatedmodal.min.js"></script>
