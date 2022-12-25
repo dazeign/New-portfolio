@@ -10414,7 +10414,7 @@ ul {
   pointer-events: none;
 }
 .background{
-  background: url(../image/main/hero-pattern-me.png);
+  background: url(../image/main/hero-pattern-me.svg);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
