@@ -10331,7 +10331,6 @@ ul {
 }
 
 .coming:hover {
-  opacity: 0.3;
   transition: .4s;
 }
 
