@@ -10361,7 +10361,7 @@ ul {
 }
 
 .portfolio-card-hover:hover .card-image {
-  transform: scale(0.8) rotate(-16deg);
+  transform: scale(0.8) rotate(-6deg);
 }
 .coming:hover .card-image {
   transform: scale(1) rotate(0deg);
@@ -10370,6 +10370,7 @@ ul {
 .portfolio-card-hover:hover img {
   border-radius: 20px;
   box-shadow: 0 32px 74px rgba(68, 77, 136, 0.2);
+  
 }
 
 .not-ready:hover{
