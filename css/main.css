@@ -34,13 +34,9 @@ body[data-theme='dark'], .dark-bg, .dark-bg-text {
   --color-text-oposite: #161c2d;
   --btn-border: rgba(255,255,255,.3);
   --border-color:#383F53;
-  cursor: none;
 }
 *{
   /* outline: 1px solid red; */
-}
-a{
-  cursor:none;
 }
 
 body[data-theme='light'], .light-bg, .light-bg-text {
@@ -10418,63 +10414,6 @@ ul {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.cursor {
-  width: 60px;
-  height: 60px;
-  border: 3px solid white;
-  border-radius: 50%;
-  position: absolute;
-  transition-duration: 200ms;
-  transition-timing-function: ease-out;
-  animation: cursorAnim .5s infinite alternate;
-  pointer-events: none;
-  z-index: 10000;
-}
-
-.cursor::after {
-  content: "";
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  border: 4px solid white;
-  opacity: 0.5;
-  border-radius: 50%;
-  opacity: .5;
-  top: -8px;
-  left: -8px;
-  animation: cursorAnim2 .5s infinite alternate;
-}
-
-@keyframes cursorAnim {
-  from {
-      transform: scale(1);
-  }
-  to {
-      transform: scale(.7);
-  }
-}
-
-@keyframes cursorAnim2 {
-  from {
-      transform: scale(1);
-  }
-  to {
-      transform: scale(.4);
-  }
-}
-
-@keyframes cursorAnim3 {
-  0% {
-      transform: scale(1);
-  }
-  50% {
-      transform: scale(3);
-  }
-  100% {
-      transform: scale(1);
-      opacity: 0;
-  }
-}
 
 .expand {
   animation: cursorAnim3 .5s forwards;
@@ -10491,7 +10430,7 @@ a {
 }
 @media (max-width: 576px) {
   .cursor{
-    display: none;
+    /* display: none; */
   }
   .sociall{
     padding-bottom: 1.2rem;
