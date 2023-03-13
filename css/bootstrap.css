@@ -2840,7 +2840,7 @@ textarea.form-control {
 }
 
 .btn:not(:disabled):not(.disabled) {
-  cursor: none;
+  /* cursor: none; */
 }
 
 a.btn.disabled,
